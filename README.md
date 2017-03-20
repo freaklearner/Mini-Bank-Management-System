@@ -36,6 +36,8 @@ cont char(10) NOT NULL,
 balance decimal,
 PRIMARY KEY(id));
 
+### Note: Manually add a row in account table as Account number is automatically created in reference of previously created account number so to avoid having an error on running first time add a row in account table usinf insert query.
+
 
 
 
